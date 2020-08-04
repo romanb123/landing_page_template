@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #F7F7F7;
+}
+
+.header {
+    background-color: hsl(224, 97%, 36%) !important;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px 25px 50px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 3;
+}
+
+.navigation-item {
+    list-style: none;
+}
+
+.logo {
+    flex-grow: 1;
+    font-weight: 800;
+    text-shadow: 2px 1px 0px rgba(150, 150, 150, 0.62);
+}
+
+.icons {
+    flex-grow: 1;
+    text-align: right;
+}
+
+.main-content {
+    background-color: hsl(224, 97%, 36%) !important;
+    height: 400px;
+    background-image: linear-gradient(to bottom, rgba(3, 50, 181, 0.52), rgba(3, 50, 181, 0.73)), url('http://localhost/e-shop/wp-content/uploads/2020/08/header-background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-content {
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    color: white;
+}
+
+.heading {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content h1 {
+    flex-grow: 1;
+    font-size: 40px;
+    letter-spacing: 8px;
+}
+
+.main-content h2 {
+    flex-grow: 1;
+    font-size: 20px;
+    letter-spacing: 12px;
+}
+
+.btn {
+    flex-grow: 2;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.btn button {
+    background-color: hsl(224, 97%, 36%);
+    padding: 20px 40px 20px 40px;
+    border: 1px white solid;
+    border-radius: 35px;
+}
+
+.servises {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media only screen and (max-width: 600px) {
+    .header,
+    .navigation {
+        flex-direction: column;
+    }
+    .navigation,
+    .logo,
+    .icons {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
