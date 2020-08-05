@@ -20,7 +20,8 @@ body {
 .navigation {
     display: flex;
     justify-content: space-around;
-    flex-grow: 3;
+    flex: 0 0 18%;
+    display: none;
 }
 
 .navigation-item {
@@ -28,13 +29,13 @@ body {
 }
 
 .logo {
-    flex-grow: 1;
+    flex: 0 0 18%;
     font-weight: 800;
     text-shadow: 2px 1px 0px rgba(150, 150, 150, 0.62);
 }
 
 .icons {
-    flex-grow: 1;
+    flex: 0 0 18%;
     text-align: right;
 }
 
