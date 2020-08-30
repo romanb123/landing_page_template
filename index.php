@@ -66,17 +66,17 @@ get_header();
                 <li>css 3</li>
                 <li>node js</li>
             </ul>
-            <button class='project-btn'>project link</button>
+            <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
         </div>
         <div class='project-item'>
             <img src='http://localhost/e-shop/wp-content/uploads/2020/08/pr_img1-scaled.jpg' width='230' height='200'>
             <ul>
-                <h2>e shop project</h2>
-                <li>angular</li>
+                <h2>wordpress theme</h2>
+                <li>wordpress</li>
                 <li>css 3</li>
-                <li>node js</li>
+                <li>php</li>
             </ul>
-            <button class='project-btn'>project link</button>
+            <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
         </div>
         <div class='project-item'>
             <img src='http://localhost/e-shop/wp-content/uploads/2020/08/pr_img4-scaled.jpg' width='230' height='200'>
@@ -86,7 +86,7 @@ get_header();
                 <li>css 3</li>
                 <li>node js</li>
             </ul>
-            <button class='project-btn'>project link</button>
+            <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
 
         </div>
         <div class='project-item'>
@@ -97,13 +97,15 @@ get_header();
                 <li>css 3</li>
                 <li>node js</li>
             </ul>
-            <button class='project-btn'>project link</button>
+            <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
+            </button>
 
         </div>
     </div>
 </div>
 <div class="contact-us">
-
+    <h2>contact us</h2>
+    <?php echo do_shortcode( '[contact-form-7 id="32" title="contact us"]' ); ?>
 </div>
 <?php
 get_footer();

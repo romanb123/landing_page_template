@@ -124,6 +124,11 @@ body {
     margin-bottom: 4px;
 }
 
+.project-btn a {
+    color: white;
+    text-decoration: none;
+}
+
 .projects-layout {
     display: flex;
     justify-content: space-around;
@@ -144,7 +149,24 @@ body {
 }
 
 .project-item h2 {
+    padding: 5px;
     padding-bottom: 5px;
+    background-color: blue;
+    -webkit-clip-path: polygon(0 0, 100% 0, 96% 100%, 4% 100%);
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 4% 100%);
+    text-align: center;
+}
+
+.project-item img {
+    -webkit-filter: grayscale(100%) brightness(135%) contrast(120%);
+    filter: grayscale(100%) brightness(135%) contrast(120%);
+    transition: filter 0.3s, box-shadow 0.3s;
+    -webkit-transition: filter 0.3s, -webkit-filter 0.3s, box-shadow 0.3s;
+}
+
+.project-item img:hover {
+    -webkit-filter: none;
+    filter: none;
 }
 
 .projects- {
@@ -157,8 +179,48 @@ body {
 }
 
 .contact-us {
-    height: 500px;
     background-color: #F7F7F7;
+    text-align: center;
+    padding: 5px;
+}
+
+.contact-us h2 {
+    color: hsl(224, 97%, 36%);
+    padding-bottom: 14px;
+}
+
+.footer {
+    background-color: hsl(224, 97%, 36%);
+    text-align: center;
+    padding: 5px;
+}
+
+.wpcf7-form.init {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+}
+
+.wpcf7-form-control {
+    width: 96%;
+    border-radius: 23px;
+    padding: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid hsl(224, 97%, 36%);
+    text-align: center;
+    color: hsl(224, 97%, 36%);
+}
+
+::-webkit-input-placeholder {
+    color: hsl(224, 97%, 36%);
+}
+
+.wpcf7-submit {
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color: hsl(224, 97%, 36%);
+    color: white
 }
 
 @media only screen and (max-width: 600px) {
