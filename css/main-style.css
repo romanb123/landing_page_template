@@ -20,8 +20,7 @@ body {
 .navigation {
     display: flex;
     justify-content: space-around;
-    flex: 0 0 18%;
-    display: none;
+    flex: 0 0 50%;
 }
 
 .navigation-item {
@@ -29,7 +28,7 @@ body {
 }
 
 .logo {
-    flex: 0 0 18%;
+    flex: 0 0 28%;
     font-weight: 800;
     text-shadow: 2px 1px 0px rgba(150, 150, 150, 0.62);
 }
@@ -87,13 +86,79 @@ body {
     background-color: hsl(224, 97%, 36%);
     padding: 20px 40px 20px 40px;
     border: 1px white solid;
+    color: white;
     border-radius: 35px;
 }
 
 .servises {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.servises-heading {
+    text-align: center;
+    padding: 5px 0px 20px 0px;
+}
+
+.servise-item {
+    flex: 0 1 250px;
+    margin: 25px;
+    text-align: center;
+}
+
+.projects-section {
+    background-color: hsl(224, 97%, 36%);
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.project-btn {
+    background-color: hsl(224, 97%, 36%);
+    padding: 6px 15px 6px 15px;
+    border: 1px white solid;
+    color: white;
+    border-radius: 35px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.projects-layout {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-item {
+    background-color: #F7F7F7;
+    padding: 5px;
+}
+
+.project-item ul {
+    padding: 7px;
+}
+
+.project-item li {
+    list-style: none;
+    color: black;
+}
+
+.project-item h2 {
+    padding-bottom: 5px;
+}
+
+.projects- {
+    padding-bottom: 25px;
+}
+
+.projects-section h2 {
+    padding-bottom: 8px;
+    color: white;
+}
+
+.contact-us {
     height: 500px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #F7F7F7;
 }
 
 @media only screen and (max-width: 600px) {
