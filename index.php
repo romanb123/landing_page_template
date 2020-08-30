@@ -18,7 +18,7 @@ get_header();
 <h3 class='servises-heading' id="services">servises</h3>
 <div class='servises'>
     <div class='servise-item'>
-        <img src='http://localhost/e-shop/wp-content/uploads/2020/08/html-five.png'>
+        <img src='wp-content/uploads/2020/08/html-five.png'>
         <h3>בניית אתרים</h3>
         <p>Lorem Ipsum is simply dummy text of the printing
             and typesetting industry. Lorem Ipsum has been
@@ -27,7 +27,7 @@ get_header();
             it to make a type specimen book. It has survived not only five centuries,</p>
     </div>
     <div class="servise-item">
-        <img src="http://localhost/e-shop/wp-content/uploads/2020/08/html-five2.png">
+        <img src="wp-content/uploads/2020/08/html-five2.png">
         <h3>בניית דפי נחיתה</h3>
         <p>Lorem Ipsum is simply dummy text of the printing
             and typesetting industry. Lorem Ipsum has been
@@ -36,7 +36,7 @@ get_header();
             it to make a type specimen book. It has survived not only five centuries, </p>
     </div>
     <div class='servise-item'>
-        <img src='http://localhost/e-shop/wp-content/uploads/2020/08/wordpress.png'>
+        <img src='wp-content/uploads/2020/08/wordpress.png'>
         <h3>עיצוב אתרים</h3>
         <p>Lorem Ipsum is simply dummy text of the printing
             and typesetting industry. Lorem Ipsum has been
@@ -45,7 +45,7 @@ get_header();
             it to make a type specimen book. It has survived not only five centuries,</p>
     </div>
     <div class="servise-item">
-        <img src="http://localhost/e-shop/wp-content/uploads/2020/08/android.png">
+        <img src="wp-content/uploads/2020/08/android.png">
         <h3>בתאמב למובייל</h3>
         <p>Lorem Ipsum is simply dummy text of the printing
             and typesetting industry. Lorem Ipsum has been
@@ -59,7 +59,7 @@ get_header();
     <h2>projects</h2>
     <div class='projects-layout'>
         <div class='project-item'>
-            <img src='http://localhost/e-shop/wp-content/uploads/2020/08/pr_img2-scaled.jpg' width='230' height='200'>
+            <img src='wp-content/uploads/2020/08/pr_img2-scaled.jpg' width='230' height='200'>
             <ul>
                 <h2>e shop project</h2>
                 <li>angular</li>
@@ -69,7 +69,7 @@ get_header();
             <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
         </div>
         <div class='project-item'>
-            <img src='http://localhost/e-shop/wp-content/uploads/2020/08/pr_img1-scaled.jpg' width='230' height='200'>
+            <img src='wp-content/uploads/2020/08/pr_img1-scaled.jpg' width='230' height='200'>
             <ul>
                 <h2>wordpress theme</h2>
                 <li>wordpress</li>
@@ -79,7 +79,7 @@ get_header();
             <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
         </div>
         <div class='project-item'>
-            <img src='http://localhost/e-shop/wp-content/uploads/2020/08/pr_img4-scaled.jpg' width='230' height='200'>
+            <img src='wp-content/uploads/2020/08/pr_img4-scaled.jpg' width='230' height='200'>
             <ul>
                 <h2>e shop project</h2>
                 <li>angular</li>
@@ -90,7 +90,7 @@ get_header();
 
         </div>
         <div class='project-item'>
-            <img src='http://localhost/e-shop/wp-content/uploads/2020/08/pr_img3-scaled.jpg' width='230' height='200'>
+            <img src='wp-content/uploads/2020/08/pr_img3-scaled.jpg' width='230' height='200'>
             <ul>
                 <h2>e shop project</h2>
                 <li>angular</li>
