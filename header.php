@@ -9,15 +9,15 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header" id="header">
         <div class="logo">
             Roman web development
         </div>
         <ul class="navigation">
-            <li class="navigation-item"><a>home</a></li>
-            <li class="navigation-item"><a>about</a></li>
-            <li class="navigation-item"><a>services</a></li>
-            <li class="navigation-item"><a>contact</a></li>
+            <li class="navigation-item"><a href="#header">home</a></li>
+            <li class="navigation-item"><a href="#projects">projects</a></li>
+            <li class="navigation-item"><a href="#services">services</a></li>
+            <li class="navigation-item"><a href="#contact">contact</a></li>
         </ul>
         <div class="icons">
             icons

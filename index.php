@@ -15,7 +15,7 @@ get_header();
     </div>
 </div>
 <!-- services -->
-<h3 class='servises-heading'>servises</h3>
+<h3 class='servises-heading' id="services">servises</h3>
 <div class='servises'>
     <div class='servise-item'>
         <img src='http://localhost/e-shop/wp-content/uploads/2020/08/html-five.png'>
@@ -28,7 +28,7 @@ get_header();
     </div>
     <div class="servise-item">
         <img src="http://localhost/e-shop/wp-content/uploads/2020/08/html-five2.png">
-        <h3>בניית דפי נחיתב</h3>
+        <h3>בניית דפי נחיתה</h3>
         <p>Lorem Ipsum is simply dummy text of the printing
             and typesetting industry. Lorem Ipsum has been
             the industry's standard dummy text ever since the
@@ -55,7 +55,7 @@ get_header();
     </div>
 </div>
 <!-- projects -->
-<div class='projects-section'>
+<div class='projects-section' id="projects">
     <h2>projects</h2>
     <div class='projects-layout'>
         <div class='project-item'>
@@ -103,7 +103,7 @@ get_header();
         </div>
     </div>
 </div>
-<div class="contact-us">
+<div class="contact-us" id="contact">
     <h2>contact us</h2>
     <?php echo do_shortcode( '[contact-form-7 id="32" title="contact us"]' ); ?>
 </div>

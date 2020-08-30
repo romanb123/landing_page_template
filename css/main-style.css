@@ -27,6 +27,11 @@ body {
     list-style: none;
 }
 
+.navigation-item a {
+    color: white;
+    text-decoration: none;
+}
+
 .logo {
     flex: 0 0 28%;
     font-weight: 800;
@@ -132,11 +137,13 @@ body {
 .projects-layout {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .project-item {
     background-color: #F7F7F7;
     padding: 5px;
+    margin: 11px;
 }
 
 .project-item ul {
@@ -195,14 +202,18 @@ body {
     padding: 5px;
 }
 
-.wpcf7-form.init {
+.flex-form {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 14px;
 }
 
+.contact-item {
+    padding: 12px;
+}
+
 .wpcf7-form-control {
-    width: 96%;
+    width: 90%;
     border-radius: 23px;
     padding: 3px;
     padding-top: 10px;
@@ -210,6 +221,7 @@ body {
     border: 1px solid hsl(224, 97%, 36%);
     text-align: center;
     color: hsl(224, 97%, 36%);
+    margin: 12px;
 }
 
 ::-webkit-input-placeholder {
@@ -217,10 +229,11 @@ body {
 }
 
 .wpcf7-submit {
+    width: 90%;
     padding-right: 40px;
     padding-left: 40px;
     background-color: hsl(224, 97%, 36%);
-    color: white
+    color: white;
 }
 
 @media only screen and (max-width: 600px) {
@@ -233,5 +246,27 @@ body {
     .icons {
         flex-grow: 1;
         text-align: center;
+    }
+}
+
+.arrow-top {
+    position: fixed;
+    bottom: 3px;
+    right: 3px;
+    padding: 8px;
+    background-color: white;
+    color: white;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 854px) {
+    .flex-form {
+        flex-direction: column;
+    }
+    .contact-item {
+        margin: auto;
+        margin-bottom: 2px;
+        margin-top: 2px;
+        padding: 0;
     }
 }

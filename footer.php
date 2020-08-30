@@ -1,3 +1,6 @@
+<div class="arrow-top">
+<a href="#header"><img src="http://localhost/e-shop/wp-content/uploads/2020/08/arrow-up.svg"></a>
+</div>
 <div class="footer">
 <div class="header">
         <div class="logo">
