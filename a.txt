@@ -1,0 +1,124 @@
+elementor-section class:
+.popup-form
+======================================================
+form:
+<div class="theForm">
+<span class="close">x</span>
+<h3 class="form-heading">העלו את תמונת השולחן שלכם לכאן</h3>
+[mfile* upload-file-417 id:i]
+[text* text-61 class:name placeholder "שם מלא"]
+
+[text* text-61 class:city placeholder "עיר"]
+
+[tel* your-telephone minlength:10 maxlength:10 placeholder "טלפון"] 
+
+[email* email-448 class:email akismet:author_email placeholder "מייל"]
+[acceptance acceptance-969] קראתי ואני מסכים לכללי התקנון
+[/acceptance]
+[submit "שלח"]</div>
+
+=========================================================
+
+css:
+.popup-form {
+   position: fixed !important;
+	left:0;
+	top:0;
+  height: 100vw;
+	margin:auto;
+	width:100% !important;
+	background-color:white;
+  background:rgba(112,81,246,0.3);
+
+}
+.theForm{
+	position:relative;
+	width:42%;
+	margin:auto;
+	margin-top:40px !important;
+background-color:white;
+	padding:16px;
+}
+.theForm input{
+	border:none;
+	border-bottom:3px solid rgb(114, 73, 17);
+ text-align: right;
+}
+
+.theForm .wpcf7-submit{
+	margin-right:33%;
+	margin-left:30%;
+	width:30%;
+	background-color:rgb(114, 73, 17);
+	color:white;
+	text-align:center;
+	border-radius:12px;
+}
+.images-optimize-upload-wrapper{
+	width:50%;
+	margin:auto;
+}
+.cd-upload-btn{
+opacity:0;
+}
+.codedropz-upload-inner span{
+	display:none;
+}
+
+@media only screen and (max-width: 600px) {
+.theForm{
+	width:100%;
+	margin:auto;
+	margin-top:2px !important;
+background-color:white;
+	padding:16px;
+}	
+	
+.theForm .wpcf7-submit{
+	margin-right:3%;
+	margin-left:3%;
+	width:90%;
+	background-color:rgb(114, 73, 17);
+ }
+}
+span.close{
+		float:left;
+		font-size:33px;
+	position:absolute;
+	left:12px;
+	top:0;
+color:rgb(114, 73, 17);
+	}
+
+============================================================
+
+    jquery:
+    (function($) {
+
+    $(".toggle").click(function() {
+        $(".navigation").toggle("slow", function() {});
+    });
+
+    $(window).resize(function() {
+        var width = $(window).width();
+        if (width > 600) {
+            $(".navigation").css("display", "flex");
+        } else {
+            $(".navigation").css("display", "none");
+
+        }
+    });
+    $(window).on('load', function() {
+        $(".trigerstar").click(function() {
+            $(".popup-form").toggle("slow", function() {});
+        });
+        $(".close").click(function() {
+            $(".popup-form").hide();
+        });
+    });
+
+    document.addEventListener('wpcf7mailsent', function(event) {
+        location = 'http://landingportfolio.epizy.com/';
+    }, false);
+
+})(jQuery);

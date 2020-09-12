@@ -24,7 +24,7 @@ get_header();
             and typesetting industry. Lorem Ipsum has been
             the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five centuries,</p>
+        it to make a type specimen book. It has survived not only five centuries,</p>
     </div>
     <div class="servise-item">
         <img src="wp-content/uploads/2020/08/html-five2.png">
@@ -33,7 +33,7 @@ get_header();
             and typesetting industry. Lorem Ipsum has been
             the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five centuries, </p>
+        it to make a type specimen book. It has survived not only five centuries, </p>
     </div>
     <div class='servise-item'>
         <img src='wp-content/uploads/2020/08/wordpress.png'>
@@ -42,7 +42,7 @@ get_header();
             and typesetting industry. Lorem Ipsum has been
             the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five centuries,</p>
+        it to make a type specimen book. It has survived not only five centuries,</p>
     </div>
     <div class="servise-item">
         <img src="wp-content/uploads/2020/08/android.png">
@@ -51,7 +51,7 @@ get_header();
             and typesetting industry. Lorem Ipsum has been
             the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley of type and scrambled
-            it to make a type specimen book. It has survived not only five centuries, </p>
+        it to make a type specimen book. It has survived not only five centuries, </p>
     </div>
 </div>
 <!-- projects -->
@@ -67,46 +67,46 @@ get_header();
                 <li>node js</li>
             </ul>
             <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
-        </div>
-        <div class='project-item'>
-            <img src='wp-content/uploads/2020/08/pr_img1-scaled.jpg' width='230' height='200'>
-            <ul>
-                <h2>wordpress theme</h2>
-                <li>wordpress</li>
-                <li>css 3</li>
-                <li>php</li>
-            </ul>
-            <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
-        </div>
-        <div class='project-item'>
-            <img src='wp-content/uploads/2020/08/pr_img4-scaled.jpg' width='230' height='200'>
-            <ul>
-                <h2>e shop project</h2>
-                <li>angular</li>
-                <li>css 3</li>
-                <li>node js</li>
-            </ul>
-            <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
+            </div>
+            <div class='project-item'>
+                <img src='wp-content/uploads/2020/08/pr_img1-scaled.jpg' width='230' height='200'>
+                <ul>
+                    <h2>wordpress theme</h2>
+                    <li>wordpress</li>
+                    <li>css 3</li>
+                    <li>php</li>
+                </ul>
+                <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
+                </div>
+                <div class='project-item'>
+                    <img src='wp-content/uploads/2020/08/pr_img4-scaled.jpg' width='230' height='200'>
+                    <ul>
+                        <h2>e shop project</h2>
+                        <li>angular</li>
+                        <li>css 3</li>
+                        <li>node js</li>
+                    </ul>
+                    <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
 
-        </div>
-        <div class='project-item'>
-            <img src='wp-content/uploads/2020/08/pr_img3-scaled.jpg' width='230' height='200'>
-            <ul>
-                <h2>e shop project</h2>
-                <li>angular</li>
-                <li>css 3</li>
-                <li>node js</li>
-            </ul>
-            <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
-            </button>
+                    </div>
+                    <div class='project-item'>
+                        <img src='wp-content/uploads/2020/08/pr_img3-scaled.jpg' width='230' height='200'>
+                        <ul>
+                            <h2>e shop project</h2>
+                            <li>angular</li>
+                            <li>css 3</li>
+                            <li>node js</li>
+                        </ul>
+                        <button class='project-btn'><a href="http://romanportfolio.epizy.com/">project link</a>
+                        </button>
 
-        </div>
-    </div>
-</div>
-<div class="contact-us" id="contact">
-    <h2>contact us</h2>
-    <?php echo do_shortcode( '[contact-form-7 id="32" title="contact us"]' ); ?>
-</div>
-<?php
-get_footer();
-?>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-us" id="contact">
+                <h2>contact us</h2>
+                <?php echo do_shortcode( '[contact-form-7 id="32" title="contact us"]' ); ?>
+            </div>
+            <?php
+            get_footer();
+            ?>
