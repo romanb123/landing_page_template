@@ -122,3 +122,32 @@ color:rgb(114, 73, 17);
     }, false);
 
 })(jQuery);
+
+
+
+
+
+
+
+css
+
+.form3 label{ width:100% !important
+	padding:56px;
+} 
+input#form-field-field_ba994ec-2,input#form-field-field_ba994ec-0,input#form-field-field_ba994ec-1{
+	width:0;
+}
+.elementor-field-option{
+padding:3px}
+
+
+    $(window).on('load', function() {
+        console.log("working");
+        $(".form3").find('input:radio').change(function() {
+            var color = $(this).css('background-color');
+            console.log($(this).parent());
+            $(this).parent().parent().find('span').css('background-color', "green");
+            $(this).parent().css('background-color', "red");
+        });
+
+    });
